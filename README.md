@@ -12,9 +12,8 @@ I modified the code from https://github.com/chenxinpeng/S2VT to Tensorflow r1.3 
 
 # 2. Folders are expected to be organized as follows:
   ./s2vt_r1.3  
-  
     /models [null, to save trained models]  
-    
+   
     /rgb_feats [null, to save rgb CNN features for frames]  
     
     /vgg  
@@ -24,9 +23,7 @@ I modified the code from https://github.com/chenxinpeng/S2VT to Tensorflow r1.3 
       VGG_ILSVRC_16_layers_deploy.prototxt  
       
       VGG_ILSVRC_16_layers.caffemodel  
-      
   /data  
-  
     /msvd
       video_corpus.csv [video corpus download from Microsoft website]
     /youtube_videos [null, to save videos downloaded from Youtube]
